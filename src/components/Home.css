@@ -1,0 +1,121 @@
+.Home {
+	background: url("../images/image-6.jpg");
+	color: white;
+	/* height: 110vh; */
+	padding: 50px 6%;
+	position: relative;
+}
+.logo {
+	position: relative;
+	z-index: 25;
+}
+.homeOverlay {
+	height: 110vh;
+	width: 100%;
+	background-color: #284c65;
+	opacity: 0.3;
+	position: absolute;
+	z-index: 20;
+	top: 0;
+	left: 0;
+}
+.homeCol {
+	display: flex;
+	flex-wrap: wrap;
+}
+.homeCol1 {
+	position: relative;
+	z-index: 25;
+	margin-top: 8%;
+	width: 20rem;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-evenly; */
+}
+
+.homeTitle {
+	font-weight: 600;
+	font-size: 5vw;
+	width: 70%;
+}
+
+.homeDes {
+	font-size: 0.8rem;
+	font-weight: 300;
+	margin-top: 2rem;
+	width: 60%;
+}
+
+.contactButton {
+	background-color: #ef7061;
+	outline: none;
+	border-color: #ef7061;
+	font-size: 0.8rem;
+	width: 10.5rem;
+	margin-top: 2rem;
+	padding: 17px;
+}
+.contactButton:hover {
+	border-color: #ef7061;
+	background-color: #d86254;
+}
+
+.search {
+	width: 100%;
+	border: none;
+	height: 60px;
+	margin-top: 2rem;
+	padding-left: 50px;
+	font-size: 0.7rem;
+}
+
+.searchIcon {
+	background-image: url("../images/search.svg");
+	background-repeat: no-repeat;
+	height: 1rem;
+	width: 1rem;
+	position: relative;
+	left: 88%;
+	top: -40px;
+	right: 30px;
+	display: inline-block;
+}
+
+.homeCol2 {
+	align-self: flex-end;
+	position: relative;
+	z-index: 25;
+	width: 50%;
+}
+.carousel {
+	width: 15rem;
+	height: 10rem;
+	object-fit: none;
+}
+.carouselImg1 {
+	background-image: url("../images/foggypines.jpg");
+}
+.carouselImg2 {
+	background-image: url("../images/orangepine.jpg");
+}
+
+.carousel-control-prev-icon {
+	top: -3rem;
+	z-index: 26;
+}
+/******* media queries ********/
+
+@media screen and (max-width: 966px) {
+	.homeTitle {
+		font-size: 8vw;
+		width: 80%;
+	}
+	.homeContent {
+		width: 90%;
+		margin-top: 3rem;
+	}
+	.homeDes {
+		width: 100%;
+		margin-top: 1rem;
+	}
+}
