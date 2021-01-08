@@ -1,0 +1,55 @@
+.carousel {
+	width: 100%;
+	height: 10rem;
+	object-fit: none;
+}
+
+.buttonBox {
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	background-color: #83bcc5;
+}
+
+.caption {
+	align-self: center;
+	font-size: 0.7rem;
+}
+
+.Btn {
+	background-color: #83bcc5;
+	outline: none;
+	border-color: #83bcc5;
+	font-size: 1.5rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0 30px;
+}
+
+.Btn:hover,
+.Btn:focus,
+.Btn:active {
+	background-color: #71a3aa;
+	border-color: #83bcc5;
+	box-shadow: none;
+}
+.leftBtn {
+	background-image: url("../images/icon-left.svg");
+}
+
+.rightBtn {
+	background-image: url("../images/icon-right.svg");
+}
+
+@media screen and (max-width: 966px) {
+	.carousel {
+		display: none;
+	}
+	.caption {
+		display: none;
+	}
+	.Btn {
+		width: 35px;
+		padding: 0;
+	}
+}

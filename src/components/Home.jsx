@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Button from "react-bootstrap/Button";
-import Carousel from "react-bootstrap/Carousel";
+import Slider from "./Slider";
 
 function Home() {
 	return (
@@ -17,9 +17,8 @@ function Home() {
 						omnis magnam harum iusto vero eius sit sapiente quibusdam nulla a
 						illum, quae rem.
 					</div>
-					<Button className="contactButton" size="lg">
-						CONTACT
-					</Button>
+					<Button className="contactButton">CONTACT</Button>
+					<div className="searchIcon"></div>
 					<div className="searchContainer">
 						<datalist id="suggestions">
 							<option>Lorem</option>
@@ -33,17 +32,9 @@ function Home() {
 							placeholder="Search"
 						/>
 					</div>
-					<div className="searchIcon"></div>
 				</div>
 				<div className="homeCol2">
-					<Carousel>
-						<Carousel.Item>
-							<div className="carousel carouselImg1"></div>
-						</Carousel.Item>
-						<Carousel.Item>
-							<div className="carousel carouselImg2"></div>
-						</Carousel.Item>
-					</Carousel>
+					<Slider />
 				</div>
 			</div>
 		</div>
