@@ -23,6 +23,11 @@
 	src: url("./fonts/Poppins-Bold.ttf");
 	font-weight: 700;
 }
+:root {
+	--light-blue: #83bcc5;
+	--coral: #ef7061;
+	--dark-teal: #203a4b;
+}
 body {
 	margin: 0;
 	font-family: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",

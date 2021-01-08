@@ -1,0 +1,67 @@
+.Images {
+	padding: 2% 6%;
+	margin: 4% 0;
+}
+.imgTitle {
+	padding: 0 1.2rem;
+	color: var(--dark-teal);
+	font-weight: 600;
+}
+.imagesBox {
+	height: 25rem;
+	/* border: 1px solid black; */
+	margin: 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.image {
+	width: 14rem;
+	height: 20rem;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+.img1 {
+	background-image: url("../images/bluemountain.jpg");
+}
+.img2 {
+	background-image: url("../images/snowmountain.jpg");
+}
+.img3 {
+	background-image: url("../images/starmountain.jpg");
+}
+.img4 {
+	background-image: url("../images/beachcott.jpg");
+}
+
+.imageOverlay {
+	background-color: #83bcc5;
+	position: absolute;
+	width: 14rem;
+	height: 20rem;
+	opacity: 0;
+	border-radius: 5px;
+}
+.imageOverlay:hover {
+	opacity: 0.8;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.description {
+	position: relative;
+	top: 14rem;
+	font-size: 0.8rem;
+	color: white;
+	text-align: center;
+	padding: 0 30px;
+	transform: scale(0);
+	transition: 0.5s;
+}
+
+.image:hover p {
+	transform: scale(1);
+}
