@@ -1,0 +1,50 @@
+.Download {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+	background-color: #fdfdfd;
+	margin: 4rem 0;
+}
+.dImg {
+	width: 30rem;
+	text-align: center;
+}
+.dContent {
+	align-self: center;
+	width: 25rem;
+	margin: 2rem;
+}
+.dTitle {
+	color: black;
+	font-weight: 600;
+	font-size: 2rem;
+}
+.dDes {
+	color: grey;
+}
+.dBtn1,
+.dBtn2 {
+	height: 3.2rem;
+	width: 10rem;
+	object-fit: contain;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+	.dTitle,
+	.dDes {
+		text-align: center;
+	}
+	.dBtn1,
+	.dBtn2 {
+		height: 3rem;
+		width: 7rem;
+	}
+	.dTitle {
+		font-size: 1.3rem;
+	}
+	.dDes {
+		font-size: 0.8rem;
+	}
+}
