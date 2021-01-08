@@ -27,6 +27,7 @@
 	--light-blue: #83bcc5;
 	--coral: #ef7061;
 	--dark-teal: #203a4b;
+	--dark-green: #112733;
 }
 body {
 	margin: 0;
@@ -35,4 +36,5 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-weight: 400;
+	color: white;
 }
