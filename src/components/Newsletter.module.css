@@ -1,0 +1,80 @@
+.Newsletter {
+	margin: 0 auto 4rem;
+	height: 80vh;
+	width: 80%;
+}
+
+.nwsContainer {
+	background: linear-gradient(
+			0deg,
+			rgba(232, 236, 241, 0.1),
+			rgba(232, 236, 241, 0.1)
+		),
+		url("../images/nwsmountain.jpg");
+	height: 80vh;
+	background-repeat: no-repeat;
+	width: 100%;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 2%;
+}
+
+.nwsText {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 2rem;
+	/* margin-bottom: 4rem; */
+	width: 30rem;
+}
+
+.nwsTitle {
+	font-weight: 600;
+	width: 60%;
+	font-size: 3.5vw;
+}
+.nwsDes {
+	font-size: 0.8rem;
+	width: 48%;
+}
+
+.nwsForm {
+	width: 20rem;
+	margin-left: 2%;
+	align-self: flex-end;
+	background-color: white;
+	border-radius: 10px 10px 0 0;
+	height: 13.5rem;
+}
+.nwsForm input {
+	border: none;
+	border-bottom: 2px solid rgb(187, 187, 187);
+	padding: 20px 10px;
+	width: 13rem;
+	margin-left: 15%;
+	outline: none;
+}
+.nwsForm input::placeholder {
+	color: black;
+	font-size: 0.8rem;
+}
+
+.signupButton {
+	background-color: var(--light-blue);
+	outline: none;
+	border-color: var(--light-blue);
+	border-radius: 0 0 10px 10px;
+	font-size: 0.8rem;
+	width: 100%;
+	margin-top: 2rem;
+	padding: 17px;
+}
+.signupButton:hover,
+.signupButton:focus,
+.signupButton:active {
+	border-color: var(--light-blue);
+	background-color: var(--light-blue);
+	box-shadow: none;
+	outline: none;
+}
