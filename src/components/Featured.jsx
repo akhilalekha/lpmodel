@@ -18,7 +18,7 @@ function Featured() {
 		slidesToScroll: 3,
 		speed: 500,
 		swipeToSlide: true,
-		// autoplay: true,
+		autoplay: true,
 		autoplaySpeed: 2000,
 		cssEase: "linear",
 		pauseOnHover: true
