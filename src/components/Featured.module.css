@@ -3,9 +3,7 @@
 }
 .featureContainer {
 	height: 80vh;
-	margin: 0 0 10rem;
-	/* background-color: aqua; */
-	color: black;
+	margin: 0 5% 10rem;
 }
 .ftrText {
 	display: flex;
