@@ -17,7 +17,7 @@
 	border-radius: 10px;
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 2%;
+	margin: 0 1.5%;
 }
 
 .nwsText {
@@ -25,7 +25,6 @@
 	flex-direction: column;
 	justify-content: center;
 	margin-left: 2rem;
-	/* margin-bottom: 4rem; */
 	width: 30rem;
 }
 
@@ -77,4 +76,24 @@
 	background-color: var(--light-blue);
 	box-shadow: none;
 	outline: none;
+}
+
+@media screen and (max-width: 566px) {
+	.Newsletter {
+		width: 90%;
+	}
+	.nwsTitle {
+		width: 80%;
+		font-size: calc(2rem + 1.2vw);
+	}
+	.nwsText {
+		width: 100%;
+	}
+	.nwsDes {
+		width: 80%;
+	}
+	.nwsForm {
+		width: 16rem;
+		margin-left: 0.8rem;
+	}
 }
