@@ -1,0 +1,50 @@
+.Featured {
+	color: black;
+}
+.featureContainer {
+	height: 80vh;
+	margin: 0 0 10rem;
+	/* background-color: aqua; */
+	color: black;
+}
+.ftrText {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.ftrTitle {
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+.ftrDes {
+	width: 50%;
+	align-self: center;
+}
+.ftrImageContainer {
+	height: 25rem !important;
+	width: 50% !important;
+}
+.ftrImage {
+	height: 25rem;
+	width: 40rem;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+button.slick-arrow.slick-next {
+	display: none !important;
+}
+button.slick-arrow.slick-previous {
+	display: none !important;
+}
+@media screen and (max-width: 566px) {
+	.ftrImage,
+	.ftrImageContainer {
+		height: 10rem;
+		width: 20rem;
+	}
+	.ftrDes {
+		width: 80%;
+		align-self: center;
+	}
+}
