@@ -1,0 +1,20 @@
+.Inspirations {
+	color: black;
+}
+.insContainer {
+	/* height: 80vh; */
+	/* margin: 0 5% 10rem; */
+}
+.insText {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.insTitle {
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+.insDes {
+	width: 50%;
+	text-align: center;
+}

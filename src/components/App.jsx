@@ -5,6 +5,7 @@ import Home from "./Home";
 import Images from "./Images";
 import Newsletter from "./Newsletter";
 import Third from "./Third";
+import Inspirations from "./Inspirations";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Download />
 			<Featured />
 			<Newsletter />
+			<Inspirations />
 		</div>
 	);
 }
