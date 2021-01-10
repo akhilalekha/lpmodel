@@ -22,6 +22,10 @@
 .dDes {
 	color: grey;
 }
+.dBtns {
+	display: flex;
+	justify-content: flex-start;
+}
 .dBtn1,
 .dBtn2 {
 	height: 3.2rem;
@@ -31,7 +35,7 @@
 	border-radius: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 566px) {
 	.dTitle,
 	.dDes {
 		text-align: center;
@@ -46,5 +50,8 @@
 	}
 	.dDes {
 		font-size: 0.8rem;
+	}
+	.dBtns {
+		justify-content: center;
 	}
 }

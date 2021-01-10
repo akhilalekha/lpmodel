@@ -1,7 +1,8 @@
 .Newsletter {
 	margin: 0 auto 4rem;
-	height: 80vh;
+	height: 95vh;
 	width: 80%;
+	padding-top: 1rem;
 }
 
 .nwsContainer {
@@ -84,7 +85,6 @@
 	}
 	.nwsTitle {
 		width: 80%;
-		font-size: calc(2rem + 1.2vw);
 	}
 	.nwsText {
 		width: 100%;
