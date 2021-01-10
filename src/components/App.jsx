@@ -7,6 +7,7 @@ import Newsletter from "./Newsletter";
 import Third from "./Third";
 import Inspirations from "./Inspirations";
 import Learnmore from "./Learnmore";
+import Footer from "./Footer";
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<Newsletter />
 			<Inspirations />
 			<Learnmore />
+			<Footer />
 		</div>
 	);
 }

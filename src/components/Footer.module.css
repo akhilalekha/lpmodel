@@ -1,0 +1,51 @@
+.Footer {
+	margin: 3% 9%;
+	color: black;
+}
+
+.ftContainer {
+	display: flex;
+	justify-content: flex-start;
+	height: 100%;
+	flex-wrap: wrap;
+}
+
+.ftbanner {
+	display: flex;
+	justify-content: stretch;
+	width: 100%;
+	height: 4.5rem;
+	flex-wrap: wrap;
+}
+
+.ftbannerIcons {
+	background-color: var(--light-blue);
+	width: 25rem;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 6rem;
+}
+
+.ftText1,
+.ftText2 {
+	width: 15rem;
+	color: gray;
+	font-size: 0.8rem;
+	align-self: center;
+}
+
+.ftText2 {
+	text-align: right;
+}
+
+@media screen and (max-width: 566px) {
+	.ftbannerIcons {
+		margin-left: 0rem;
+	}
+	.ftbanner {
+		text-align: center;
+	}
+	.ftText2 {
+		text-align: center;
+	}
+}

@@ -1,0 +1,16 @@
+.FtBox {
+	color: black;
+	margin: 50px 50px 50px 0;
+}
+.FtBox:last-child {
+	justify-self: flex-end;
+}
+
+.FtBoxTitle,
+.FtBoxLink {
+	font-size: 0.8rem;
+	margin: 5px 0;
+}
+.FtBoxTitle {
+	font-weight: 500;
+}
