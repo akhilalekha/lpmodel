@@ -1,9 +1,9 @@
 .Inspirations {
 	color: black;
+	height: 150vh;
 }
 .insContainer {
-	/* height: 80vh; */
-	/* margin: 0 5% 10rem; */
+	margin: 0 9%;
 }
 .insText {
 	display: flex;
@@ -17,4 +17,54 @@
 .insDes {
 	width: 50%;
 	text-align: center;
+}
+
+.insImages {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.insImgContainer {
+	margin: 13px;
+	min-height: 58vh;
+	max-height: 64vh;
+	min-width: 25vw;
+	max-width: 48vw;
+	position: relative;
+}
+.insImg {
+	min-height: 58vh;
+	max-height: 64vh;
+	object-fit: cover;
+	min-width: 25vw;
+	max-width: 48vw;
+	border-radius: 10px;
+}
+
+.insImgText {
+	color: white;
+	position: absolute;
+	bottom: 75px;
+	left: 50px;
+}
+
+p {
+	margin: 0;
+}
+.insImgTextTitle {
+	font-size: 0.6rem;
+}
+.insImgTextHeads {
+	display: flex;
+	padding-left: 15px;
+}
+.insImgTextHead {
+	border-radius: 50%;
+	margin-left: -15px;
+}
+
+@media screen and (max-width: 566px) {
+	.insImg {
+		min-width: 75vw;
+	}
 }

@@ -15,9 +15,14 @@ function Newsletter() {
 				</div>
 				<div className={style.nwsForm}>
 					<form>
-						<input type="text" name="" id="" placeholder="Name" />
-						<input type="email" name="" id="" placeholder="Email" />
-						<input type="number" name="" id="" placeholder="Phone Number" />
+						<input type="text" name="name" id="name" placeholder="Name" />
+						<input type="email" name="email" id="email" placeholder="Email" />
+						<input
+							type="number"
+							name="number"
+							id="number"
+							placeholder="Phone Number"
+						/>
 					</form>
 					<Button className={style.signupButton}>SIGN UP NOW</Button>
 				</div>

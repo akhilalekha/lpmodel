@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import style from "./Featured.module.css";
+import { v4 as uuidv4 } from "uuid";
 import img1 from "../images/bluesurf.jpg";
 import img2 from "../images/domeblue.jpg";
 import img3 from "../images/sanddunes.jpg";
@@ -15,7 +16,7 @@ function Featured() {
 		infinite: true,
 		centerPadding: "60px",
 		slidesToShow: 1,
-		slidesToScroll: 3,
+		slidesToScroll: 1,
 		speed: 1000,
 		swipeToSlide: true,
 		autoplay: true,
@@ -36,7 +37,7 @@ function Featured() {
 				<div className={style.ftrSlider}>
 					<Slider {...settings}>
 						{images.map((image) => (
-							<div className={style.ftrImageContainer}>
+							<div className={style.ftrImageContainer} key={uuidv4()}>
 								<img className={style.ftrImage} src={image} alt="slider" />
 							</div>
 						))}

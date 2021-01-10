@@ -8,7 +8,7 @@ function Download() {
 	return (
 		<div className="Download">
 			<div className="dImg">
-				<img src={img} alt="" srcset="" />
+				<img src={img} alt="mobile screen" />
 			</div>
 
 			<div className="dContent">
@@ -19,10 +19,10 @@ function Download() {
 				</p>
 				<div className="dBtns">
 					<a href="https://www.apple.com/in/app-store/">
-						<img className="dBtn1" src={apl} alt="" srcset="" />
+						<img className="dBtn1" src={apl} alt="download" />
 					</a>
 					<a href="https://play.google.com/store">
-						<img className="dBtn1" src={gpl} alt="" srcset="" />
+						<img className="dBtn1" src={gpl} alt="download" />
 					</a>
 				</div>
 			</div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import "./Third.css";
+import { v4 as uuidv4 } from "uuid";
 import img1 from "../images/thfs1.jpg";
 import img2 from "../images/thfs2.jpg";
 import img3 from "../images/thfs3.jpg";
@@ -22,9 +23,8 @@ function Third() {
 			<div className="thFs">
 				<div className="thFsContent">
 					<h2 className="thFsTitle">Featured Stories</h2>
-					{/* component */}
 					{images.map((image) => (
-						<div className="thFsSection">
+						<div className="thFsSection" key={uuidv4()}>
 							<img className="thFsImg" src={image} alt="featured" />
 							<div className="thFsStory">
 								<p className="thFsDes">
