@@ -45,24 +45,22 @@
 	width: 60%;
 }
 
-.contactButton {
-	background-color: #ef7061;
+.contactButton,
+.contactButton:focus,
+.contactButton:active {
+	background-color: var(--coral);
+	border-color: var(--coral);
 	outline: none;
-	border-color: #ef7061;
 	font-size: 0.8rem;
 	width: 10.5rem;
 	margin-top: 2rem;
 	padding: 17px;
-}
-.contactButton:hover,
-.contactButton:focus,
-.contactButton:active {
-	border-color: #ef7061;
-	background-color: #d86254;
 	box-shadow: none;
-	outline: none;
 }
-
+.contactButton:hover {
+	background-color: var(--dark-coral);
+	border-color: var(--dark-coral);
+}
 .search {
 	width: 100%;
 	border: none;

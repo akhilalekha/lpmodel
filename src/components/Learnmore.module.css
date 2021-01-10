@@ -1,0 +1,79 @@
+.Learnmore {
+	margin: 3% 9%;
+	color: black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lrnContent {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 50px;
+	width: 26rem;
+}
+.lrnTitle {
+	width: 90%;
+	font-size: 2.7rem;
+	font-weight: 600;
+}
+
+.lrndesc {
+	width: 65%;
+	font-size: 0.8rem;
+}
+
+.lrnButton,
+.lrnButton:focus,
+.lrnButton:active {
+	background-color: var(--light-blue);
+	border-color: var(--light-blue);
+	outline: none;
+	font-size: 0.8rem;
+	width: 10.5rem;
+	margin-top: 2rem;
+	padding: 17px;
+	box-shadow: none;
+}
+
+.lrnButton:hover {
+	background-color: var(--dark-blue);
+	border-color: var(--dark-blue);
+}
+
+.lrnImages {
+	display: flex;
+	flex-wrap: wrap;
+	width: 35rem;
+}
+
+.lrnImg {
+	object-fit: cover;
+	margin: 10px;
+}
+
+.lrnImgContainer {
+	width: 15rem;
+}
+
+.lrnImgContainer:nth-of-type(1) {
+	text-align: right;
+	margin-top: 3.5rem;
+}
+.lrnImgContainer:nth-of-type(2) {
+	text-align: left;
+}
+
+.lrnImgContainer:nth-of-type(3) {
+	text-align: right;
+}
+.lrnImgContainer:nth-of-type(4) {
+	text-align: left;
+}
+
+@media screen and (max-width: 566px) {
+	.lrnImages {
+		transform: scale(0.8);
+	}
+}

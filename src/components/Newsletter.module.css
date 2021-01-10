@@ -60,25 +60,24 @@
 	font-size: 0.8rem;
 }
 
-.signupButton {
+.signupButton,
+.signupButton:focus,
+.signupButton:active {
 	background-color: var(--light-blue);
-	outline: none;
 	border-color: var(--light-blue);
+	outline: none;
+
 	border-radius: 0 0 10px 10px;
 	font-size: 0.8rem;
 	width: 100%;
 	margin-top: 2rem;
 	padding: 17px;
-}
-.signupButton:hover,
-.signupButton:focus,
-.signupButton:active {
-	border-color: var(--light-blue);
-	background-color: var(--light-blue);
 	box-shadow: none;
-	outline: none;
 }
-
+.signupButton:hover {
+	background-color: var(--dark-blue);
+	border-color: var(--dark-blue);
+}
 @media screen and (max-width: 566px) {
 	.Newsletter {
 		width: 90%;

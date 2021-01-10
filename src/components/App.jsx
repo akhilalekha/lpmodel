@@ -6,6 +6,7 @@ import Images from "./Images";
 import Newsletter from "./Newsletter";
 import Third from "./Third";
 import Inspirations from "./Inspirations";
+import Learnmore from "./Learnmore";
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Featured />
 			<Newsletter />
 			<Inspirations />
+			<Learnmore />
 		</div>
 	);
 }
