@@ -1,4 +1,3 @@
-import "./App.css";
 import Download from "./Download";
 import Featured from "./Featured";
 import Home from "./Home";
@@ -8,6 +7,7 @@ import Third from "./Third";
 import Inspirations from "./Inspirations";
 import Learnmore from "./Learnmore";
 import Footer from "./Footer";
+import "./App.css";
 
 function App() {
 	return (
