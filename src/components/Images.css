@@ -1,27 +1,22 @@
 .Images {
 	padding: 0 6%;
-	margin: 4% 0 0;
-	height: 80vh;
+	margin: 4% 0;
 }
 .imgTitle {
-	padding: 0 1.2rem;
 	color: var(--dark-teal);
 	font-weight: 600;
 }
 .imagesBox {
 	height: 25rem;
-	/* border: 1px solid black; */
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	/* position: relative; */
 }
 
 .image {
 	width: 14rem;
 	height: 20rem;
-	margin: 10px 0;
 	border-radius: 5px;
 }
 .img1 {
@@ -72,16 +67,14 @@
 	.imgTitle {
 		font-size: 1.8rem;
 	}
-	.image {
-		width: 8rem;
-		height: 16rem;
-		margin: 10px 0;
-		border-radius: 5px;
-	}
+
+	.image,
 	.imageOverlay {
-		background-color: #83bcc5;
 		width: 8rem;
 		height: 16rem;
+	}
+	.image {
+		margin: 10px 0;
 	}
 	.description {
 		font-size: 0.6rem;
