@@ -12,7 +12,6 @@ function Third() {
 	return (
 		<div className="Third">
 			<div className="thImg">
-				<div className="thImgOverlay"></div>
 				<h2 className="thImgTitle">Lorem Ipsum Dolor Sit Amet</h2>
 				<div className="thImgdesc">
 					At iam decimum annum in spelunca iacet. Cur tantas regiones barbarorum

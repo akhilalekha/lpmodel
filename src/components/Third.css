@@ -8,9 +8,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	position: relative;
-	margin-bottom: 100px;
 	padding: 50px 6%;
+	margin: 10% 0;
 }
 
 .thImg {
@@ -71,9 +70,9 @@
 	color: grey;
 }
 
-@media screen and (max-width: 566px) {
+/* @media screen and (max-width: 566px) {
 	.Third {
 		top: 90vw;
 		margin-bottom: 300px;
 	}
-}
+} */
