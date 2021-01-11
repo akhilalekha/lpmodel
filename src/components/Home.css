@@ -4,6 +4,10 @@
 	height: 110vh;
 	padding: 50px 6%;
 	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .logo {
 	position: relative;
@@ -21,7 +25,6 @@
 }
 .homeCol {
 	display: flex;
-	/* flex-wrap: wrap; */
 }
 .homeCol1 {
 	position: relative;
@@ -77,7 +80,7 @@
 	width: 1rem;
 	position: relative;
 	left: 88%;
-	top: 80px;
+	top: 75px;
 	right: 30px;
 	display: inline-block;
 }
