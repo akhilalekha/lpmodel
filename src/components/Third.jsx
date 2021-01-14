@@ -12,12 +12,14 @@ function Third() {
 	return (
 		<div className="Third">
 			<div className="thImg">
-				<h2 className="thImgTitle">Lorem Ipsum Dolor Sit Amet</h2>
-				<div className="thImgdesc">
-					At iam decimum annum in spelunca iacet. Cur tantas regiones barbarorum
-					pedibus obiit, tot maria transmisit.
+				<div className="thImgContent">
+					<h2 className="thImgTitle">Lorem Ipsum Dolor Sit Amet</h2>
+					<div className="thImgdesc">
+						At iam decimum annum in spelunca iacet. Cur tantas regiones
+						barbarorum pedibus obiit, tot maria transmisit.
+					</div>
+					<Button className="contactButton thBtn">CONTACT</Button>
 				</div>
-				<Button className="contactButton thBtn">CONTACT</Button>
 			</div>
 			<div className="thFs">
 				<div className="thFsContent">

@@ -1,8 +1,7 @@
 .Home {
 	background: url("../images/image-6.jpg");
 	color: white;
-	height: 110vh;
-	padding: 50px 6%;
+	padding: 50px 9% 0;
 	position: relative;
 	background-attachment: fixed;
 	background-position: center;
@@ -14,7 +13,6 @@
 	z-index: 25;
 }
 .homeOverlay {
-	height: 110vh;
 	width: 100%;
 	background-color: #284c65;
 	opacity: 0.3;

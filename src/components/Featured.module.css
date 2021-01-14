@@ -2,28 +2,27 @@
 	color: black;
 }
 .featureContainer {
-	height: 80vh;
-	margin: 0 5% 10rem;
+	max-height: 80vh;
+	margin: 0 9% 10%;
 }
 .ftrText {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	padding: 0 0 2rem;
 }
 .ftrTitle {
 	font-weight: 600;
 	font-size: 2.5rem;
 }
 .ftrDes {
-	width: 50%;
+	max-width: 30rem;
+	min-width: 18rem;
 	align-self: center;
 }
-.ftrImageContainer {
-	height: 25rem !important;
-	width: 50% !important;
-}
+
 .ftrImage {
-	height: 25rem;
+	height: 20rem;
 	width: 40rem;
 	object-fit: cover;
 	border-radius: 10px;
@@ -41,8 +40,11 @@ button.slick-arrow.slick-previous {
 		height: 10rem;
 		width: 20rem;
 	}
+	.ftrTitle {
+		font-size: 1.5rem;
+	}
 	.ftrDes {
-		width: 80%;
 		align-self: center;
+		font-size: 0.9rem;
 	}
 }

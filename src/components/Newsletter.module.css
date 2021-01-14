@@ -1,8 +1,8 @@
 .Newsletter {
-	margin: 0 auto 4rem;
-	height: 95vh;
-	width: 80%;
+	margin: 3% 9%;
+	/* height: 95vh; */
 	padding-top: 1rem;
+	max-height: 150vh;
 }
 
 .nwsContainer {
@@ -18,7 +18,6 @@
 	border-radius: 10px;
 	display: flex;
 	flex-wrap: wrap;
-	margin: 0 1.5%;
 }
 
 .nwsText {
@@ -36,11 +35,11 @@
 }
 .nwsDes {
 	font-size: 0.8rem;
-	width: 48%;
+	min-width: 48%;
 }
 
 .nwsForm {
-	width: 20rem;
+	width: 35%;
 	margin-left: 2%;
 	align-self: flex-end;
 	background-color: white;
@@ -51,7 +50,7 @@
 	border: none;
 	border-bottom: 2px solid rgb(187, 187, 187);
 	padding: 20px 10px;
-	width: 13rem;
+	width: 70%;
 	margin-left: 15%;
 	outline: none;
 }
@@ -80,19 +79,19 @@
 }
 @media screen and (max-width: 566px) {
 	.Newsletter {
-		width: 90%;
+		margin: 3% 5%;
+		height: 100vh;
 	}
 	.nwsTitle {
-		width: 80%;
+		font-size: 1.5rem;
 	}
+
 	.nwsText {
-		width: 100%;
+		padding-top: 50%;
 	}
-	.nwsDes {
-		width: 80%;
-	}
+
 	.nwsForm {
-		width: 16rem;
-		margin-left: 0.8rem;
+		width: 90%;
+		margin: 1rem;
 	}
 }
